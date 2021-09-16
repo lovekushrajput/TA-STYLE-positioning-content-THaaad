@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    background-color: rgb(83,133,193);
+    box-sizing: border-box;
+    height: 250px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 80px;
+    margin-top: 30px;
+    float: right;
+    color: rgb(163,189,221);
+}
+.theorey{
+    color: rgb(163,189,221);
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+    color: white;
+}
+.free{
+    text-align: center;
+    color: rgb(163,189,221);
+    margin: 10px;
+    font-size: 14px;
+
+}
+/* clearfix */
+.clearfix::before , .clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.parent{
+    width: 100%;
+}
+.col{
+    display: inline-block;
+    width: 20%;
+    margin: 80px 20px;
+    margin-left: 110px;
+}
+h2{
+    font-size: 20px;
+    margin: 20px 0;
+    color: rgb(83,133,193);
+}
+.para-info{
+    line-height: 1.5;
+    color: rgb(188,188,188);
+}
+button{
+    margin:10px 0;
+    background-color: rgb(83,133,193);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 30px;
+}
+.parent1{
+    background-color: rgb(83,133,193);
+    /* width: 100%; */
+}
+h3{
+    padding-top: 90px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.paragraph{
+    margin: 13px 0;
+    color: white;
+    text-align: center;
+}
+
+.pic{
+    display: inline-block;
+    margin: 100px 45px;
+    border: rgb(115,155,205) 1px solid;
+    padding: 50px 20px;
+}
+.image{
+    /* width: 70px; */
+    /* height: 100px; */
+    border-radius: 50%;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.child-para{
+    text-align: center;
+    color: rgb(146,177,216);
+}
+.parent2{
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(121,159,207);
+}
+.para1{
+    text-align: center;
+    color:rgb(195,195,195)
+}
+.muntain{
+    display: inline-block;
+    width: 45%;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+img{
+    width: 100%;
+}
+h6{
+    font-size: 20px;
+    margin: 20px 0;
+    color: rgb(121,159,207);
+}
+.para-info-1{
+    margin: 20px 0;
+    text-align: left;
+    color: rgb(177,177,177);
+}
+.button{
+    background-color: rgb(83,133,193);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 80px;
+}
+hr{
+    width: 93%;
+    margin-bottom: 40px;
+}
+footer a{
+    float: right;
+    color: rgb(83,133,193);
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 0 50px;
+    color: rgb(177,177,177);
+}
